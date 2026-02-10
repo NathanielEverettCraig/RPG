@@ -2,9 +2,12 @@
 #include <windows.h>
 #endif
 
+#include <time.h>
 #include <iostream>
 
 #include "fogpi/Math.hpp"
+
+#include "Dice.hpp"
 
 int main(int argc, char *argv[])
 {
@@ -14,6 +17,16 @@ int main(int argc, char *argv[])
     v.x = 5.0f;
 
     // random seed
+    srand(time(NULL));
+
+    Die die = { .sides = 8 };
+
+    std::vector<Die> dice;
+    dice.push_back(die);
+    dice.push_back(die);
+    dice.push_back(die);
+
+    RollStats stats = RollDice(dice);
     
     return 0;
 }
