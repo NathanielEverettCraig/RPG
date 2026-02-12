@@ -8,6 +8,7 @@
 #include "fogpi/Math.hpp"
 
 #include "Dice.hpp"
+#include "Entity.hpp"
 
 int main(int argc, char *argv[])
 {
