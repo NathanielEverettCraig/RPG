@@ -14,6 +14,9 @@
 
 int main(int argc, char *argv[])
 {
+    LinkList<int> list;
+    list.Insert(0, 5);
+    
     std::cout << "Hello, Class" << std::endl;
 
     Vec2 v;
