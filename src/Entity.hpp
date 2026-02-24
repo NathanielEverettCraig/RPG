@@ -8,7 +8,7 @@ class Entity {
     public:
         Room* room;
 
-        virtual void Start();
+        virtual void Start(Vec2 _pos);
         virtual void Update();
 
     protected:
