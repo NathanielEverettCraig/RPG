@@ -8,13 +8,23 @@
 #include "fogpi/Math.hpp"
 
 #include "Dice.hpp"
+#include "Room.hpp"
 #include "Entity.hpp"
 
 #include "DataStructures/LinkList.hpp"
 
 int main(int argc, char *argv[])
 {
-    LinkList<int> list;
+    srand(time(NULL));
+
+    Room room;
+    room.Load("assets/level_1.map");
+
+    while(true)
+    {
+        room.Update();
+    }
+    /*LinkList<int> list;
     
     for (int i = 0; i < 5; i++)
         list.Insert(i, i);
@@ -41,6 +51,7 @@ int main(int argc, char *argv[])
     dice.push_back(die);
 
     RollStats stats = RollDice(dice);
+    */
     
     return 0;
 }
