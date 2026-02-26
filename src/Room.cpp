@@ -77,10 +77,6 @@ void Room::Load(std::string _path)
                     m_player = new Player();
                 
                 m_player->Start(Vec2(x,y));
-                
-                // LEAVE COMMENTED TODAY
-                //m_player->Init(Vector2D(x, y));
-                //m_player->Start();
                 m_map[y][x] = ' ';
             }
 
@@ -102,7 +98,6 @@ void Room::Update()
     Draw();
     if (m_player != nullptr)
     {
-        printf("HELP\n");
         m_player->room = this;
         m_player->Update();
     }
