@@ -1,0 +1,3 @@
+C:\mingw64\bin\cmake.exe -E rm -f CMakeFiles\fogpi.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\fogpi.dir/objects.a @CMakeFiles\fogpi.dir\objects1.rsp
+C:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\fogpi.dir/objects.a -Wl,--no-whole-archive -o C:\Users\NECraig2179\Documents\NathanielCraigProject12026\FOGPI-CPP-2026\fogpi.exe -Wl,--out-implib,libfogpi.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\fogpi.dir\linkLibs.rsp

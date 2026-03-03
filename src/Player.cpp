@@ -1,6 +1,8 @@
 #include "Player.hpp"
 #include "Room.hpp"
 #include "fogpi/io.hpp"
+#include "Dice.hpp"
+#include "Enemy1.hpp"
 
 void Player::Start(Vec2 _pos) {
     m_character = 'P';
@@ -47,11 +49,44 @@ void Player::Update() {
         room->ClearLocation(tryPos);
     }
 
+    if (room->GetLocation(tryPos) == 'C') {
+        m_keyCount--;
+        m_coins++;
+        room->ClearLocation(tryPos);
+    }
+
+    if (room->GetLocation(tryPos) == 'L') {
+        if (m_keyCount != 0) {
+            m_keyCount--;
+            int h = RollDice();
+            if (m_health < 100) {
+            m_health += h;
+            }
+            if (m_health > 100) {
+            m_health = 100;
+            }
+            room->OpenDoor(tryPos);    
+        }
+    }
+
     if (room->GetLocation(tryPos) == ' ') {
         m_position = tryPos;
     }
 
     if (room->GetLocation(tryPos) == 'D') {
+        int h = RollDice();
+        if (m_health < 100) {
+            m_health += h;
+        }
+        if (m_health > 100) {
+            m_health = 100;
+        }
+        difficulty++;
+
         room->OpenDoor(tryPos);
+    }
+
+    if (m_health == 0) {
+        exit;
     }
 }

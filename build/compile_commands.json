@@ -1,0 +1,32 @@
+[
+{
+  "directory": "C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/build",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\fogpi.dir\\src\\Player.cpp.obj -c C:\\Users\\NECraig2179\\Documents\\NathanielCraigProject12026\\FOGPI-CPP-2026\\src\\Player.cpp",
+  "file": "C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/Player.cpp",
+  "output": "CMakeFiles/fogpi.dir/src/Player.cpp.obj"
+},
+{
+  "directory": "C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/build",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\fogpi.dir\\src\\Room.cpp.obj -c C:\\Users\\NECraig2179\\Documents\\NathanielCraigProject12026\\FOGPI-CPP-2026\\src\\Room.cpp",
+  "file": "C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/Room.cpp",
+  "output": "CMakeFiles/fogpi.dir/src/Room.cpp.obj"
+},
+{
+  "directory": "C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/build",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\fogpi.dir\\src\\fogpi\\Math.cpp.obj -c C:\\Users\\NECraig2179\\Documents\\NathanielCraigProject12026\\FOGPI-CPP-2026\\src\\fogpi\\Math.cpp",
+  "file": "C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/fogpi/Math.cpp",
+  "output": "CMakeFiles/fogpi.dir/src/fogpi/Math.cpp.obj"
+},
+{
+  "directory": "C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/build",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\fogpi.dir\\src\\fogpi\\io.cpp.obj -c C:\\Users\\NECraig2179\\Documents\\NathanielCraigProject12026\\FOGPI-CPP-2026\\src\\fogpi\\io.cpp",
+  "file": "C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/fogpi/io.cpp",
+  "output": "CMakeFiles/fogpi.dir/src/fogpi/io.cpp.obj"
+},
+{
+  "directory": "C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/build",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\fogpi.dir\\src\\main.cpp.obj -c C:\\Users\\NECraig2179\\Documents\\NathanielCraigProject12026\\FOGPI-CPP-2026\\src\\main.cpp",
+  "file": "C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/main.cpp",
+  "output": "CMakeFiles/fogpi.dir/src/main.cpp.obj"
+}
+]

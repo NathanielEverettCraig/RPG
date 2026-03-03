@@ -9,4 +9,6 @@ public:
     void Update();
 private:
     int m_keyCount = 0;
+    int m_coins = 10;
+    int m_health = 100;
 };
