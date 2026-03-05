@@ -115,7 +115,9 @@ CMakeFiles/fogpi.dir/src/Player.cpp.obj: C:/Users/NECraig2179/Documents/Nathanie
   C:/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
   C:/mingw64/x86_64-w64-mingw32/include/vadefs.h \
   C:/mingw64/x86_64-w64-mingw32/include/wchar.h \
+  C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/Dice.hpp \
   C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/Door.hpp \
+  C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/Enemy1.hpp \
   C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/Entity.hpp \
   C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/Player.hpp \
   C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/Room.hpp \
@@ -805,12 +807,10 @@ CMakeFiles/fogpi.dir/src/main.cpp.obj: C:/Users/NECraig2179/Documents/NathanielC
   C:/mingw64/x86_64-w64-mingw32/include/wtypes.h \
   C:/mingw64/x86_64-w64-mingw32/include/wtypesbase.h \
   C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/DataStructures/LinkList.hpp \
-  C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/Dice.hpp \
   C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/Door.hpp \
   C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/Entity.hpp \
   C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/Room.hpp \
-  C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/fogpi/Math.hpp \
-  C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/fogpi/io.hpp
+  C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/fogpi/Math.hpp
 
 
 C:/mingw64/x86_64-w64-mingw32/include/wtypesbase.h:
@@ -830,10 +830,6 @@ C:/mingw64/x86_64-w64-mingw32/include/winnt.h:
 C:/mingw64/x86_64-w64-mingw32/include/winnls.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/winnetwk.h:
-
-C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/Dice.hpp:
-
-C:/mingw64/x86_64-w64-mingw32/include/wingdi.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/winerror.h:
 
@@ -1027,6 +1023,12 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitintrin.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/movdirintrin.h:
 
+C:/mingw64/x86_64-w64-mingw32/include/shellapi.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/psdk_inc/_xmitfile.h:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mmintrin.h:
+
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xmmintrin.h:
 
 C:/mingw64/include/c++/14.2.0/bits/basic_ios.h:
@@ -1045,15 +1047,13 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vldqintrin.h:
 
 C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/Entity.hpp:
 
+C:/mingw64/x86_64-w64-mingw32/include/wingdi.h:
+
+C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/Dice.hpp:
+
 C:/mingw64/include/c++/14.2.0/ext/type_traits.h:
 
 C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/Door.hpp:
-
-C:/mingw64/include/c++/14.2.0/bits/exception_ptr.h:
-
-C:/mingw64/include/c++/14.2.0/bits/locale_classes.tcc:
-
-C:/mingw64/include/c++/14.2.0/stdexcept:
 
 C:/mingw64/x86_64-w64-mingw32/include/wchar.h:
 
@@ -1064,6 +1064,8 @@ C:/mingw64/include/c++/14.2.0/tr1/legendre_function.tcc:
 C:/mingw64/x86_64-w64-mingw32/include/winioctl.h:
 
 C:/mingw64/include/c++/14.2.0/cctype:
+
+C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/Enemy1.hpp:
 
 C:/mingw64/x86_64-w64-mingw32/include/processtopologyapi.h:
 
@@ -1177,14 +1179,6 @@ C:/mingw64/x86_64-w64-mingw32/include/fibersapi.h:
 
 C:/mingw64/include/c++/14.2.0/tr1/ell_integral.tcc:
 
-C:/mingw64/x86_64-w64-mingw32/include/winuser.h:
-
-C:/mingw64/include/c++/14.2.0/bits/fstream.tcc:
-
-C:/mingw64/include/c++/14.2.0/tr1/modified_bessel_func.tcc:
-
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512ifmaintrin.h:
-
 C:/mingw64/include/c++/14.2.0/bits/codecvt.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/handleapi.h:
@@ -1280,6 +1274,10 @@ C:/mingw64/include/c++/14.2.0/bits/hash_bytes.h:
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxint8intrin.h:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm3dnow.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/vadefs.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/vaesintrin.h:
 
@@ -1401,11 +1399,19 @@ C:/mingw64/include/c++/14.2.0/bits/stl_algobase.h:
 
 C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/fogpi/io.cpp:
 
-C:/mingw64/x86_64-w64-mingw32/include/shellapi.h:
+C:/mingw64/include/c++/14.2.0/bits/exception_ptr.h:
 
-C:/mingw64/x86_64-w64-mingw32/include/psdk_inc/_xmitfile.h:
+C:/mingw64/include/c++/14.2.0/bits/locale_classes.tcc:
 
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mmintrin.h:
+C:/mingw64/include/c++/14.2.0/stdexcept:
+
+C:/mingw64/x86_64-w64-mingw32/include/winuser.h:
+
+C:/mingw64/include/c++/14.2.0/bits/fstream.tcc:
+
+C:/mingw64/include/c++/14.2.0/tr1/modified_bessel_func.tcc:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512ifmaintrin.h:
 
 C:/mingw64/include/c++/14.2.0/bits/ios_base.h:
 
@@ -1684,7 +1690,3 @@ C:/mingw64/include/c++/14.2.0/tr1/hypergeometric.tcc:
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/immintrin.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/keylockerintrin.h:
-
-C:/mingw64/x86_64-w64-mingw32/include/vadefs.h:
-
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm3dnow.h:

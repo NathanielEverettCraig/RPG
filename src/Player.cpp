@@ -43,28 +43,34 @@ void Player::Update() {
     }
 
     Vec2 tryPos = m_position + direction;
-
+    if (m_health == 0) {
+        exit;
+    }
+    
     if (room->GetLocation(tryPos) == 'K') {
         m_keyCount++;
         room->ClearLocation(tryPos);
     }
 
     if (room->GetLocation(tryPos) == 'C') {
+        if (m_keyCount != 0) {
         m_keyCount--;
         m_coins++;
         room->ClearLocation(tryPos);
+        }
     }
 
     if (room->GetLocation(tryPos) == 'L') {
         if (m_keyCount != 0) {
             m_keyCount--;
-            int h = RollDice();
-            if (m_health < 100) {
+            
+            int h = random_int(1, 20);
+        if (m_health < 100) {
             m_health += h;
-            }
-            if (m_health > 100) {
-            m_health = 100;
-            }
+        }
+        if (m_health > 100) {
+            m_health += 100;
+        }
             room->OpenDoor(tryPos);    
         }
     }
@@ -74,19 +80,35 @@ void Player::Update() {
     }
 
     if (room->GetLocation(tryPos) == 'D') {
-        int h = RollDice();
+        int h = random_int(1, 20);
         if (m_health < 100) {
             m_health += h;
         }
         if (m_health > 100) {
-            m_health = 100;
-        }
-        difficulty++;
+            m_health += 100;
+        } 
+        
 
         room->OpenDoor(tryPos);
     }
 
-    if (m_health == 0) {
-        exit;
+    if (room->GetLocation(tryPos) == 'E') {
+        int atk = random_int(1, 20);
+        int dmg = random_int(1, 20);
+        m_health -= dmg;
+        request_char("m_health");
+        if (atk > 5) {
+        room->ClearLocation(tryPos);
+        }
     }
+    if (room->GetLocation(tryPos) == 'H') {
+        int atk = random_int(1, 20);
+        int dmg = random_int(1, 20);
+        m_health -= dmg;
+        request_char("m_health");
+        if (atk > 10) {
+        room->ClearLocation(tryPos);
+        }
+    }
+
 }

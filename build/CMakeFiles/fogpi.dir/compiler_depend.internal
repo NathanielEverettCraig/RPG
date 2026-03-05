@@ -116,7 +116,9 @@ CMakeFiles/fogpi.dir/src/Player.cpp.obj
  C:/mingw64/x86_64-w64-mingw32/include/swprintf.inl
  C:/mingw64/x86_64-w64-mingw32/include/vadefs.h
  C:/mingw64/x86_64-w64-mingw32/include/wchar.h
+ C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/Dice.hpp
  C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/Door.hpp
+ C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/Enemy1.hpp
  C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/Entity.hpp
  C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/Player.hpp
  C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/Room.hpp
@@ -810,10 +812,8 @@ CMakeFiles/fogpi.dir/src/main.cpp.obj
  C:/mingw64/x86_64-w64-mingw32/include/wtypes.h
  C:/mingw64/x86_64-w64-mingw32/include/wtypesbase.h
  C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/DataStructures/LinkList.hpp
- C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/Dice.hpp
  C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/Door.hpp
  C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/Entity.hpp
  C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/Room.hpp
  C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/fogpi/Math.hpp
- C:/Users/NECraig2179/Documents/NathanielCraigProject12026/FOGPI-CPP-2026/src/fogpi/io.hpp
 

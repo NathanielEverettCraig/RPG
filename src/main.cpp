@@ -7,7 +7,7 @@
 
 #include "fogpi/Math.hpp"
 
-#include "Dice.hpp"
+//#include "Dice.hpp"
 #include "Room.hpp"
 #include "Entity.hpp"
 
@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
     room.Load("assets/level_1.map");
 
     while(true)
-    {
+   {
         room.Update();
     }
     /*LinkList<int> list;
@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
     for (int i = 0; i < 5; i++)
         list.Insert(i, i);
     
-    int size = list.Count();
+    int size = list.Count(); 
     
     for (int i = 0; auto link = list.GetLinkAt(i); i++) {
         std::cout << "link " << link->data << std::endl;

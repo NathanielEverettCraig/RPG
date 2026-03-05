@@ -1,14 +1,14 @@
-#include "Enemy1.hpp"
+#include "Enemy2.hpp"
 #include "Room.hpp"
 #include "fogpi/io.hpp"
 #include "Dice.hpp"
 
-void Enemy1::Start(Vec2 _pos) {
-    m_character = 'E';
+void Enemy2::Start(Vec2 _pos) {
+    m_character = 'H';
     m_position = _pos;
 }
 
-void Enemy1::Update() {
+void Enemy2::Update() {
     //while(request_char("hit w to continue: ") != 'w') {}
      Vec2 direction(0.0f);
     int x = random_int(1, 20);

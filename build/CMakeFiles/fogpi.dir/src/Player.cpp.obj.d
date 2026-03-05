@@ -118,4 +118,6 @@ CMakeFiles/fogpi.dir/src/Player.cpp.obj: \
  C:/mingw64/include/c++/14.2.0/bits/basic_string.tcc \
  C:\Users\NECraig2179\Documents\NathanielCraigProject12026\FOGPI-CPP-2026\src\fogpi/io.hpp \
  C:/mingw64/x86_64-w64-mingw32/include/string.h \
- C:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h
+ C:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+ C:\Users\NECraig2179\Documents\NathanielCraigProject12026\FOGPI-CPP-2026\src\Dice.hpp \
+ C:\Users\NECraig2179\Documents\NathanielCraigProject12026\FOGPI-CPP-2026\src\Enemy1.hpp
